@@ -1,0 +1,8 @@
+<div ng-controller="myController">
+	<div class="loading" ng-show="loading"><img id="mySpinner" src="content/images/spinner.gif" /></div>	
+	<div id="container"></div>	
+	<div class="periodSelect">
+		<label>Select period to load data</label>
+		<select ng-model="periodValue" select-dd ng-options="opt for opt in options"></select>
+	</div>
+</div>
